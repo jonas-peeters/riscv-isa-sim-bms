@@ -1277,6 +1277,8 @@ riscv_insn_ext_cmo = \
 riscv_insn_ext_zicond = \
 	czero_eqz \
 	czero_nez \
+	bms \
+	bjr \
 
 riscv_insn_ext_zfbfmin = \
 	fcvt_bf16_s \
