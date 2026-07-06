@@ -1277,6 +1277,8 @@ riscv_insn_ext_cmo = \
 riscv_insn_ext_zicond = \
 	czero_eqz \
 	czero_nez \
+
+riscv_insn_ext_xbmis = \
 	bms \
 	bjr \
 
@@ -1428,6 +1430,7 @@ riscv_insn_list = \
 	$(riscv_insn_ext_zfh) \
 	$(riscv_insn_ext_zfh_zfa) \
 	$(riscv_insn_ext_zicond) \
+	$(riscv_insn_ext_xbmis) \
 	$(riscv_insn_ext_zvk) \
 	$(riscv_insn_priv) \
 	$(riscv_insn_smrnmi) \
